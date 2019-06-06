@@ -1,0 +1,10 @@
+  1 if has("syntax")
+  2     syntax on
+  3   endif
+  4   set autoindent
+  5   set cindent
+  6   set nu
+  7   set ts=2
+  8   set shiftwidth=2
+  9   set expandtab
+ 10   set backspace=indent,eol,start
