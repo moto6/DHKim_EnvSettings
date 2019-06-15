@@ -29,3 +29,10 @@ code convention : K&R(.c) , google code(.cpp)
    1. NO tab only space (for align anywhere)
    2. indent space 2
    3. same also at other IDE(Eclipes, ST's Truestudio, TI's CCS)
+
+#
+## ubuntu 18.04 LTS Setting
+
+```
+sudo apt-get install update;sudo apt-get install upgrade;sudo apt-get install bulid-essential;sudo apt-get install vim;sudo apt-get install git;sudo apt-get install cmake;
+```
