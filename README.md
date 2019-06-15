@@ -36,3 +36,6 @@ code convention : K&R(.c) , google code(.cpp)
 ```
 sudo apt-get install update;sudo apt-get install upgrade;sudo apt-get install bulid-essential;sudo apt-get install vim;sudo apt-get install git;sudo apt-get install cmake;
 ```
+
+
+github test
