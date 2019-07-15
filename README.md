@@ -47,8 +47,7 @@ github test
 
 
 
-openCV install xx.sh files
-
+openCV install xx.sh files : for ubuntu 18.04 LTS
 ```
 #!/bin/bash
 sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get autoremove -y
