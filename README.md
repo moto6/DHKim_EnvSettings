@@ -32,13 +32,19 @@ code convention : K&R(.c) , google code(.cpp)
 
 #
 ## ubuntu 18.04 LTS Setting
-
+- 1세대 버전
 ```
 sudo apt-get install update;sudo apt-get install upgrade;sudo apt-get install bulid-essential;sudo apt-get install vim;sudo apt-get install git;sudo apt-get install cmake;
 ```
 
+- 2세대 버전 스크립트
 
-github test
+
+
+
+
+
+
 
 # 
 ## Mac OS 에서의 개발환경 셋팅 
