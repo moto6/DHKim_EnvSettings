@@ -48,11 +48,12 @@ sudo apt-get update
 sudo apt-get install -y python3.6
 sudo apt-get install -y pycharm-community
 sudo apt autoremove -y
+pycharm-community
 ```
 ```
-sudo add-apt-repository -y ppa:mystic-mirage/pycharm;sudo add-apt-repository -y ppa:jonathonf/python-3.6;sudo apt-get update;sudo apt-get install -y python3.6;sudo apt-get install -y pycharm-community;sudo apt autoremove -y
+sudo add-apt-repository -y ppa:mystic-mirage/pycharm;sudo add-apt-repository -y ppa:jonathonf/python-3.6;sudo apt-get update;sudo apt-get install -y python3.6;sudo apt-get install -y pycharm-community;sudo apt autoremove -y;pycharm-community
 ```
-
+- 나중에 실행할 때는 pycharm-community 명령어를 쓰면 된다
 
 
 
