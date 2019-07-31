@@ -42,15 +42,15 @@ sudo apt-get install update;sudo apt-get install upgrade;sudo apt-get install bu
 
 - 텐서플로 개발환경 한방설치 With pycharm
 ```
-sudo add-apt-repository ppa:mystic-mirage/pycharm
-sudo add-apt-repository ppa:jonathonf/python-3.6
+sudo add-apt-repository -y ppa:mystic-mirage/pycharm
+sudo add-apt-repository -y ppa:jonathonf/python-3.6
 sudo apt-get update
-sudo apt-get install python3.6
-sudo apt-get install pycharm-community
-sudo apt autoremove -Y
+sudo apt-get install -y python3.6
+sudo apt-get install -y pycharm-community
+sudo apt autoremove -y
 ```
 ```
-sudo add-apt-repository ppa:mystic-mirage/pycharm;sudo add-apt-repository ppa:jonathonf/python-3.6;sudo apt-get update;sudo apt-get install python3.6;sudo apt-get install pycharm-community;sudo apt autoremove -Y
+sudo add-apt-repository -y ppa:mystic-mirage/pycharm;sudo add-apt-repository -y ppa:jonathonf/python-3.6;sudo apt-get update;sudo apt-get install -y python3.6;sudo apt-get install -y pycharm-community;sudo apt autoremove -y
 ```
 
 
