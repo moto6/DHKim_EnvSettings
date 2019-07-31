@@ -47,9 +47,10 @@ sudo add-apt-repository ppa:jonathonf/python-3.6
 sudo apt-get update
 sudo apt-get install python3.6
 sudo apt-get install pycharm-community
+sudo apt autoremove -Y
 ```
 ```
-sudo add-apt-repository ppa:mystic-mirage/pycharm;sudo add-apt-repository ppa:jonathonf/python-3.6;sudo apt-get update;sudo apt-get install python3.6;sudo apt-get install pycharm-community
+sudo add-apt-repository ppa:mystic-mirage/pycharm;sudo add-apt-repository ppa:jonathonf/python-3.6;sudo apt-get update;sudo apt-get install python3.6;sudo apt-get install pycharm-community;sudo apt autoremove -Y
 ```
 
 
