@@ -1,5 +1,5 @@
-sudo apt-get install update;
-sudo apt-get install -y upgrade;
+sudo apt-get update;
+sudo apt-get -y upgrade;
 sudo apt-get install -y bulid-essential;
 sudo apt-get install -y vim;
 sudo apt-get install -y git;
