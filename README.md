@@ -111,3 +111,8 @@ source ~/.bashrc
   ```
   sudo add-apt-repository ppa:webupd8team/sublime-text-3;sudo apt-get update;sudo apt-get install sublime-text-installer;source ~/.bashrc;subl
   ```
+  #### 업데이트중이라 막힐때
+  ```
+  sudo rm /var/lib/dbkg/lock 
+  ```
+   - 정 급하면 위 명령어를 사용해도 되지만 다른 패키지 인스톨/언인스톨 중이니 기다리는것을 
