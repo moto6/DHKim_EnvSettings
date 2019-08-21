@@ -8,5 +8,6 @@ sudo apt-get install -y python;
 sudo apt-get install -y python3;
 sudo apt-get install -y python-pip;
 sudo apt-get install -y python3-pip;
-sudo apt-get install -y minicom
+#sudo apt-get install -y minicom
 sudo apt-get install -y terminator
+pip3 install numpy scipy matplotlib ipython scikit-learn pandas
