@@ -119,13 +119,17 @@ source ~/.bashrc
    
  # Uubtu환경에서 VSCode 설치
   - 출처 : https://webnautes.tistory.com/1197 [멈춤보다 천천히라도 님 블로그(클릭하시면 링크로 연결됩니다)](https://webnautes.tistory.com/1197)
-  - 설치하기
+  - 설치하기 Line By Line
     ```
-      415  sudo apt-get install curl
-      416  sudo sh -c 'curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /etc/apt/trusted.gpg.d/microsoft.gpg'
-      417  sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
-      418  sudo apt-get update
-      419  sudo apt-get install code
-      420  code
+      sudo apt-get install curl
+      sudo sh -c 'curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /etc/apt/trusted.gpg.d/microsoft.gpg'
+      sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+      sudo apt-get update
+      sudo apt-get install code
+      code
 
+    ```
+  - 한줄설치 
+    ```
+    sudo apt-get install curl && sudo sh -c 'curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /etc/apt/trusted.gpg.d/microsoft.gpg' & sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list' & sudo apt-get update;sudo apt-get install code & code
     ```
