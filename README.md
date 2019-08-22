@@ -102,15 +102,16 @@ source ~/.bashrc
 
 
 # Uubtu환경에서 Sublime text 설치
-  630  sudo add-apt-repository ppa:webupd8team/sublime-text-3
-  631  sudo apt-get update
-  632  sudo apt-get install sublime-text-installer
-  633  source ~/.bashrc 
-  634  subl
-  #### 한줄설치
-  ```
-  sudo add-apt-repository ppa:webupd8team/sublime-text-3 ; sudo apt-get update && sudo apt-get upgrade -y ; sudo apt-get install sublime-text-installer && source ~/.bashrc && subl
-  ```
+  - #### 설치하기 Line By Line
+   630  sudo add-apt-repository ppa:webupd8team/sublime-text-3
+   631  sudo apt-get update
+   632  sudo apt-get install sublime-text-installer
+   633  source ~/.bashrc 
+   634  subl
+  - #### 한줄설치
+   ```
+   sudo add-apt-repository ppa:webupd8team/sublime-text-3 ; sudo apt-get update && sudo apt-get upgrade -y ; sudo apt-get install sublime-text-installer && source ~/.bashrc && subl
+   ```
   #### 업데이트중이라 막힐때
   ```
   sudo rm /var/lib/dbkg/lock 
@@ -119,7 +120,7 @@ source ~/.bashrc
    
  # Uubtu환경에서 VSCode 설치
   - 출처 : https://webnautes.tistory.com/1197 [멈춤보다 천천히라도 님 블로그(클릭하시면 링크로 연결됩니다)](https://webnautes.tistory.com/1197)
-  - 설치하기 Line By Line
+  - #### 설치하기 Line By Line
     ```
       sudo apt-get install curl
       sudo sh -c 'curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /etc/apt/trusted.gpg.d/microsoft.gpg'
@@ -129,7 +130,7 @@ source ~/.bashrc
       code
 
     ```
-  - 한줄설치 
+  - #### 한줄설치 
     ```
     sudo apt-get install curl && sudo sh -c 'curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /etc/apt/trusted.gpg.d/microsoft.gpg' & sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list' & sudo apt-get update;sudo apt-get install code & code
     ```
