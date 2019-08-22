@@ -109,7 +109,7 @@ source ~/.bashrc
   634  subl
   #### 한줄설치
   ```
-  sudo add-apt-repository ppa:webupd8team/sublime-text-3 && sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install sublime-text-installer && source ~/.bashrc && subl
+  sudo add-apt-repository ppa:webupd8team/sublime-text-3 ; sudo apt-get update && sudo apt-get upgrade -y ; sudo apt-get install sublime-text-installer && source ~/.bashrc && subl
   ```
   #### 업데이트중이라 막힐때
   ```
