@@ -136,3 +136,13 @@ source ~/.bashrc
     ```
     sudo apt-get install curl && sudo sh -c 'curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /etc/apt/trusted.gpg.d/microsoft.gpg' & sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list' & sudo apt-get update;sudo apt-get install code & code
     ```
+
+ # 이외 
+  - 미니컴 설치
+   ```
+   sudo apt-get install -y minicom
+   ```
+  - 파이썬  설치
+   ```
+   pip3 install numpy scipy matplotlib ipython scikit-learn pandas
+   ```  
