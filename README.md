@@ -101,14 +101,14 @@ source ~/.bashrc
 ```
 
 
-# Uubtu환경에서 Sublime text 설치
+# Uubtu환경에서 Sublime text3 설치
   - #### 설치하기 Line By Line
    ```
-   630  sudo add-apt-repository ppa:webupd8team/sublime-text-3
-   631  sudo apt-get update
-   632  sudo apt-get install sublime-text-installer
-   633  source ~/.bashrc 
-   634  subl
+   sudo add-apt-repository ppa:webupd8team/sublime-text-3
+   sudo apt-get update
+   sudo apt-get install sublime-text-installer
+   source ~/.bashrc 
+   subl
    ```
   - #### 한줄설치
    ```
