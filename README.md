@@ -19,7 +19,7 @@
   ```
    - 정 급하면 위 명령어를 사용해도 되지만 다른 패키지 인스톨/언인스톨 중이니 기다리는것을 
    
- # Uubtu환경에서 VSCode 설치
+ # Uubtu환경에서 VSCode 설치 -error occur!!  do not use this
   - 출처 : https://webnautes.tistory.com/1197 [멈춤보다 천천히라도 님 블로그(클릭하시면 링크로 연결됩니다)](https://webnautes.tistory.com/1197)
   - #### 설치하기 Line By Line
     ```
@@ -31,9 +31,9 @@
       code
 
     ```
-  - #### 한줄설치 
+  - do not use this #### 한줄설치 
     ```
-    sudo apt-get install curl && sudo sh -c 'curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /etc/apt/trusted.gpg.d/microsoft.gpg' && sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list' & sudo apt-get update;sudo apt-get install code & code
+    (nono) sudo apt-get install curl && sudo sh -c 'curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /etc/apt/trusted.gpg.d/microsoft.gpg' && sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list' & sudo apt-get update;sudo apt-get install code & code
     ```
 
  # 이외 
