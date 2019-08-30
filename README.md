@@ -99,12 +99,16 @@ code convention : K&R(.c) , google code(.cpp)
    pycharm-community
    ```
 
-#install google crome on Ubuntu16
+# install google crome on Ubuntu16(X-86 system only!! not for ARM arch)
   ``` 
    wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
    sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
    sudo apt-get update
    sudo apt-get install google-chrome-stable
+  ```
+  - single line install
+  ``` 
+   wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -&&sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'&&sudo apt-get update&&sudo apt-get install google-chrome-stable
   ```
 
 
