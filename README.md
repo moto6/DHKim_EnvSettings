@@ -98,7 +98,7 @@ code convention : K&R(.c) , google code(.cpp)
    ```
    pycharm-community
    ```
-
+ - https://webnautes.tistory.com/1184 : and also update error slove
 # install google crome on Ubuntu16(X-86 system only!! not for ARM arch)
   ``` 
    wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
