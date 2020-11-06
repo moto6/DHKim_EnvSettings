@@ -151,3 +151,4 @@ echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:/usr/local/lib" >> ~/.bashrc
 source ~/.bashrc
 
 ```   
+2021-11-05 : dhkim >> update ubt18.sh
