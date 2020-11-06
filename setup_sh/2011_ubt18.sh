@@ -7,7 +7,7 @@ sudo apt remove gnome-mahjongg gnome-mines
 
 sudo apt install -y make cmake unzip gedit vim-gnome git build-essential 
 sudo apt install -y gnome-tweaks gnome-tweak-tool
-
+sudo apt-get install chrome-gnome-shell
 
 echo "google-crome , vscode , pycharm"
 
